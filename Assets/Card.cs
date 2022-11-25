@@ -17,7 +17,11 @@ public class Card : MonoBehaviour
 
      public Card(int id, string name, int cost,int power,string description) 
     {
-
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
+        this.power = power;
+        this.description = description;
     }
     // Start is called before the first frame update
     void Start()
